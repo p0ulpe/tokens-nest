@@ -1,0 +1,64 @@
+[
+  {
+    "id": "brand-admin-dark",
+    "name": "admin-dark",
+    "selectedTokenSets": {
+      "primitive/color": "source",
+      "primitive/dimension": "source",
+      "common/semantic": "enabled",
+      "brand/admin-dark": "enabled"
+    },
+    "group": "brand",
+    "figmaStyleReferences": {},
+    "figmaVariableReferences": {}
+  },
+  {
+    "id": "brand-admin",
+    "name": "admin",
+    "selectedTokenSets": {
+      "primitive/color": "source",
+      "primitive/dimension": "source",
+      "common/semantic": "enabled",
+      "brand/admin": "enabled"
+    },
+    "group": "brand",
+    "figmaStyleReferences": {},
+    "figmaVariableReferences": {}
+  },
+  {
+    "id": "brand-e-commerce",
+    "name": "e-commerce",
+    "selectedTokenSets": {
+      "primitive/color": "source",
+      "primitive/dimension": "source",
+      "common/semantic": "enabled",
+      "brand/e-commerce 2": "enabled"
+    },
+    "group": "brand",
+    "figmaStyleReferences": {},
+    "figmaVariableReferences": {}
+  },
+  {
+    "id": "common-semantic",
+    "name": "semantic",
+    "selectedTokenSets": {
+      "primitive/color": "source",
+      "primitive/dimension": "source",
+      "common/semantic": "enabled"
+    },
+    "group": "common",
+    "figmaStyleReferences": {},
+    "figmaVariableReferences": {}
+  },
+  {
+    "id": "primitive-value",
+    "name": "value",
+    "selectedTokenSets": {
+      "primitive/color": "enabled",
+      "primitive/dimension": "enabled"
+    },
+    "group": "primitive",
+    "figmaStyleReferences": {},
+    "figmaVariableReferences": {}
+  }
+]

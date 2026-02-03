@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "primitive/color",
+    "primitive/dimension",
+    "common/semantic",
+    "brand/e-commerce 2",
+    "brand/admin-dark",
+    "brand/admin"
+  ]
+}

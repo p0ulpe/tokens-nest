@@ -1,0 +1,64 @@
+{
+  "dimension": {
+    "l": {
+      "$type": "dimension",
+      "$value": "20",
+      "$description": ""
+    },
+    "m": {
+      "$type": "dimension",
+      "$value": "16",
+      "$description": ""
+    },
+    "s": {
+      "$type": "dimension",
+      "$value": "12",
+      "$description": ""
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "24",
+      "$description": ""
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "8",
+      "$description": ""
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "32",
+      "$description": ""
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "4",
+      "$description": ""
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "40",
+      "$description": ""
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "2",
+      "$description": ""
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "48",
+      "$description": ""
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "56",
+      "$description": ""
+    },
+    "6xl": {
+      "$type": "dimension",
+      "$value": "68",
+      "$description": ""
+    }
+  }
+}

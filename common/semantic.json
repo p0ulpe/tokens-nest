@@ -1,0 +1,30 @@
+{
+  "font": {
+    "body": {
+      "m": {
+        "$type": "fontSizes",
+        "$value": "16",
+        "$description": ""
+      }
+    },
+    "weight": {
+      "normal": {
+        "$type": "fontWeights",
+        "$value": "normal",
+        "$description": ""
+      }
+    },
+    "heading": {
+      "m": {
+        "$type": "fontSizes",
+        "$value": "24rem",
+        "$description": ""
+      }
+    }
+  },
+  "surface": {
+    "$type": "color",
+    "$value": "{color.purple.500}",
+    "$description": ""
+  }
+}

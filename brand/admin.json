@@ -1,0 +1,172 @@
+{
+  "size": {
+    "box": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}",
+        "$description": ""
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "{dimension.m}",
+        "$description": ""
+      }
+    },
+    "field": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}",
+        "$description": ""
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "{dimension.m}",
+        "$description": ""
+      }
+    },
+    "selector": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}",
+        "$description": ""
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "{dimension.m}",
+        "$description": ""
+      }
+    }
+  },
+  "typo": {
+    "body": {
+      "m": {
+        "$type": "fontSizes",
+        "$value": "{dimension.3xl}",
+        "$description": ""
+      }
+    }
+  },
+  "color": {
+    "primary": {
+      "content": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.500}",
+          "$description": ""
+        }
+      },
+      "background": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.red.600}",
+          "$description": ""
+        }
+      }
+    },
+    "secondary": {
+      "content": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.200}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$description": ""
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.100}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$description": ""
+        }
+      },
+      "background": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.600}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$description": ""
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.500}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$description": ""
+        }
+      }
+    }
+  },
+  "radius": {
+    "box": {
+      "$type": "borderRadius",
+      "$value": "{dimension.l}",
+      "$description": "container, card, ..."
+    },
+    "field": {
+      "$type": "borderRadius",
+      "$value": "{dimension.m}",
+      "$description": "button, input, select, tab"
+    },
+    "selector": {
+      "$type": "borderRadius",
+      "$value": "{dimension.xs}",
+      "$description": "checkbox, toggle, badge"
+    }
+  },
+  "spacing": {
+    "l": {
+      "$type": "spacing",
+      "$value": "{dimension.l}",
+      "$description": ""
+    },
+    "m": {
+      "$type": "spacing",
+      "$value": "{dimension.m}",
+      "$description": ""
+    },
+    "xl": {
+      "$type": "spacing",
+      "$value": "{dimension.xl}",
+      "$description": ""
+    },
+    "2xl": {
+      "$type": "spacing",
+      "$value": "{dimension.2xl}",
+      "$description": ""
+    },
+    "3xl": {
+      "$type": "spacing",
+      "$value": "{dimension.3xl}",
+      "$description": ""
+    },
+    "4xl": {
+      "$type": "spacing",
+      "$value": "{dimension.4xl}",
+      "$description": ""
+    },
+    "5xl": {
+      "$type": "spacing",
+      "$value": "{dimension.5xl}",
+      "$description": ""
+    },
+    "6xl": {
+      "$type": "spacing",
+      "$value": "{dimension.6xl}",
+      "$description": ""
+    }
+  }
+}
