@@ -3,7 +3,7 @@
     "red": {
       "100": {
         "$type": "color",
-        "$value": "#fff0f1"
+        "$value": "#888888"
       },
       "150": {
         "$type": "color",
