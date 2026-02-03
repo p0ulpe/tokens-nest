@@ -3,28 +3,24 @@
     "body": {
       "m": {
         "$type": "fontSizes",
-        "$value": "16",
-        "$description": ""
+        "$value": "16"
       }
     },
     "weight": {
       "normal": {
         "$type": "fontWeights",
-        "$value": "normal",
-        "$description": ""
+        "$value": "normal"
       }
     },
     "heading": {
       "m": {
         "$type": "fontSizes",
-        "$value": "24rem",
-        "$description": ""
+        "$value": "24rem"
       }
     }
   },
   "surface": {
     "$type": "color",
-    "$value": "{color.purple.500}",
-    "$description": ""
+    "$value": "{color.purple.500}"
   }
 }

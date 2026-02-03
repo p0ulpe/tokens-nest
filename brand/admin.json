@@ -3,37 +3,31 @@
     "box": {
       "l": {
         "$type": "sizing",
-        "$value": "{dimension.l}",
-        "$description": ""
+        "$value": "{dimension.l}"
       },
       "m": {
         "$type": "sizing",
-        "$value": "{dimension.m}",
-        "$description": ""
+        "$value": "{dimension.m}"
       }
     },
     "field": {
       "l": {
         "$type": "sizing",
-        "$value": "{dimension.l}",
-        "$description": ""
+        "$value": "{dimension.l}"
       },
       "m": {
         "$type": "sizing",
-        "$value": "{dimension.m}",
-        "$description": ""
+        "$value": "{dimension.m}"
       }
     },
     "selector": {
       "l": {
         "$type": "sizing",
-        "$value": "{dimension.l}",
-        "$description": ""
+        "$value": "{dimension.l}"
       },
       "m": {
         "$type": "sizing",
-        "$value": "{dimension.m}",
-        "$description": ""
+        "$value": "{dimension.m}"
       }
     }
   },
@@ -41,8 +35,7 @@
     "body": {
       "m": {
         "$type": "fontSizes",
-        "$value": "{dimension.3xl}",
-        "$description": ""
+        "$value": "{dimension.3xl}"
       }
     }
   },
@@ -51,61 +44,55 @@
       "content": {
         "hover": {
           "$type": "color",
-          "$value": "{color.green.500}",
-          "$description": ""
+          "$value": "{color.green.500}"
         }
       },
       "background": {
         "hover": {
           "$type": "color",
-          "$value": "{color.red.600}",
-          "$description": ""
+          "$value": "{color.red.600}"
         }
       }
     },
     "secondary": {
       "content": {
         "hover": {
-          "$type": "color",
-          "$value": "{color.green.200}",
           "$extensions": {
             "studio.tokens": {
               "modify": null
             }
           },
-          "$description": ""
+          "$type": "color",
+          "$value": "{color.green.200}"
         },
         "default": {
-          "$type": "color",
-          "$value": "{color.green.100}",
           "$extensions": {
             "studio.tokens": {
               "modify": null
             }
           },
-          "$description": ""
+          "$type": "color",
+          "$value": "{color.green.100}"
         }
       },
       "background": {
         "hover": {
-          "$type": "color",
-          "$value": "{color.green.600}",
           "$extensions": {
             "studio.tokens": {
               "modify": null
             }
           },
-          "$description": ""
+          "$type": "color",
+          "$value": "{color.green.600}"
         },
         "default": {
-          "$type": "color",
-          "$value": "{color.green.500}",
           "$extensions": {
             "studio.tokens": {
               "modify": null
             }
           },
-          "$description": ""
+          "$type": "color",
+          "$value": "{color.green.500}"
         }
       }
     }
@@ -130,43 +117,35 @@
   "spacing": {
     "l": {
       "$type": "spacing",
-      "$value": "{dimension.l}",
-      "$description": ""
+      "$value": "{dimension.l}"
     },
     "m": {
       "$type": "spacing",
-      "$value": "{dimension.m}",
-      "$description": ""
+      "$value": "{dimension.m}"
     },
     "xl": {
       "$type": "spacing",
-      "$value": "{dimension.xl}",
-      "$description": ""
+      "$value": "{dimension.xl}"
     },
     "2xl": {
       "$type": "spacing",
-      "$value": "{dimension.2xl}",
-      "$description": ""
+      "$value": "{dimension.2xl}"
     },
     "3xl": {
       "$type": "spacing",
-      "$value": "{dimension.3xl}",
-      "$description": ""
+      "$value": "{dimension.3xl}"
     },
     "4xl": {
       "$type": "spacing",
-      "$value": "{dimension.4xl}",
-      "$description": ""
+      "$value": "{dimension.4xl}"
     },
     "5xl": {
       "$type": "spacing",
-      "$value": "{dimension.5xl}",
-      "$description": ""
+      "$value": "{dimension.5xl}"
     },
     "6xl": {
       "$type": "spacing",
-      "$value": "{dimension.6xl}",
-      "$description": ""
+      "$value": "{dimension.6xl}"
     }
   }
 }
