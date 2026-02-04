@@ -1,26 +1,155 @@
 {
-  "font": {
-    "body": {
+  "size": {
+    "box": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}"
+      },
       "m": {
-        "$type": "fontSizes",
-        "$value": "16"
+        "$type": "sizing",
+        "$value": "{dimension.m}"
       }
     },
-    "weight": {
-      "normal": {
-        "$type": "fontWeights",
-        "$value": "normal"
+    "field": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}"
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "{dimension.m}"
       }
     },
-    "heading": {
+    "selector": {
+      "l": {
+        "$type": "sizing",
+        "$value": "{dimension.l}"
+      },
       "m": {
-        "$type": "fontSizes",
-        "$value": "24rem"
+        "$type": "sizing",
+        "$value": "{dimension.m}"
       }
     }
   },
-  "surface": {
-    "$type": "color",
-    "$value": "{color.purple.500}"
+  "typo": {
+    "body": {
+      "m": {
+        "$type": "fontSizes",
+        "$value": "{font.body.m}"
+      }
+    }
+  },
+  "color": {
+    "primary": {
+      "content": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.blue.500}"
+        }
+      },
+      "background": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.red.600}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.cold-gray.900}"
+        }
+      }
+    },
+    "secondary": {
+      "content": {
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$type": "color",
+          "$value": "{color.green.200}"
+        },
+        "default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$type": "color",
+          "$value": "{color.green.100}"
+        }
+      },
+      "background": {
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$type": "color",
+          "$value": "{color.green.600}"
+        },
+        "default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$type": "color",
+          "$value": "{color.green.500}"
+        }
+      }
+    }
+  },
+  "radius": {
+    "box": {
+      "$type": "borderRadius",
+      "$value": "{dimension.l}",
+      "$description": "container, card, ..."
+    },
+    "field": {
+      "$type": "borderRadius",
+      "$value": "{dimension.m}",
+      "$description": "button, input, select, tab"
+    },
+    "selector": {
+      "$type": "borderRadius",
+      "$value": "{dimension.xs}",
+      "$description": "checkbox, toggle, badge"
+    }
+  },
+  "spacing": {
+    "l": {
+      "$type": "spacing",
+      "$value": "{dimension.l}"
+    },
+    "m": {
+      "$type": "spacing",
+      "$value": "{dimension.m}"
+    },
+    "xl": {
+      "$type": "spacing",
+      "$value": "{dimension.xl}"
+    },
+    "2xl": {
+      "$type": "spacing",
+      "$value": "{dimension.2xl}"
+    },
+    "3xl": {
+      "$type": "spacing",
+      "$value": "{dimension.3xl}"
+    },
+    "4xl": {
+      "$type": "spacing",
+      "$value": "{dimension.4xl}"
+    },
+    "5xl": {
+      "$type": "spacing",
+      "$value": "{dimension.5xl}"
+    },
+    "6xl": {
+      "$type": "spacing",
+      "$value": "{dimension.6xl}"
+    }
   }
 }
