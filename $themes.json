@@ -32,7 +32,7 @@
       "primitive/color": "source",
       "primitive/dimension": "source",
       "common/semantic": "enabled",
-      "brand/e-commerce 2": "enabled"
+      "brand/e-commerce": "enabled"
     },
     "group": "brand",
     "figmaStyleReferences": {},
